@@ -1,1 +1,1 @@
-as2v.bat
+dir %1
