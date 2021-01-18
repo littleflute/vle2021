@@ -1,0 +1,1 @@
+ffmpeg -loop 1 -y -i %1 -i %2 -shortest -acodec copy -vcodec mjpeg -vf scale=1920:1080  %3

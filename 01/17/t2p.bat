@@ -1,0 +1,1 @@
+ffmpeg -i %5 -vf "drawtext=text=%4:fontcolor=%6:fontsize=75:x=%1:y=%2:" %3
